@@ -14,7 +14,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr v-for="(item, index) in serverData">
+        <tr v-for="(item, index) in tempData">
             <td><a :href="'/Order?id=' + item.id">{{item.name}}</a></td>
             <td>{{item.qty}}</td>
             <td>{{usdCurrencyFormat(item.amount)}}</td>

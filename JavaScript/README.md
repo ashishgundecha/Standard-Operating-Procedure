@@ -5,3 +5,7 @@
 
 2. appStore.js : For store and cache application data.
      - Have code example : <a href='https://github.com/ashishgundecha/Standard-Operating-Procedure/blob/main/JavaScript/appStore.js'> here  </a>
+     
+3. appUtility.js : Add all the common methods 
+     - Have code example : <a href='https://github.com/ashishgundecha/Standard-Operating-Procedure/blob/main/JavaScript/appUtility.js'> here  </a>
+     

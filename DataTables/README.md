@@ -20,4 +20,5 @@ https://github.com/ashishgundecha/Standard-Operating-Procedure/blob/main/DataTab
  3. CustomType : https://datatables.net/forums/discussion/23281/create-custom-type
  4. Export style : https://github.com/pjjonesnz/datatables-buttons-excel-styles
  5. Customize the export file header : https://datatables.net/forums/discussion/39257/excel-output-possible-to-add-message-header-using-customize-option
+ 6. Export data format :https://stackoverflow.com/questions/47675528/datatables-export-to-excel-and-format-a-numeric-column-as-currency/48571827#48571827
  

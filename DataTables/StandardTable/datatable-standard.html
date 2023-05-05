@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../datatable-standard.js"></script>
+</head>
+<body>
+   <table id="table-order">
+    <thead class="thead-light">
+        <tr>
+            <th>Name</th>
+            <th>Qty</th>
+            <th>Amount</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr v-for="(item, index) in serverData">
+            <td><a :href="'/Order?id=' + item.id">{{item.name}}</a></td>
+            <td>{{item.qty}}</td>
+            <td>{{usdCurrencyFormat(item.amount)}}</td>
+            <td :data-sort="item.date">{{convertDateFormat(item.date)}}</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

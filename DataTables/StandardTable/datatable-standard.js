@@ -1,5 +1,5 @@
 $(document).ready({
-    var serverData = [
+    var tempData = [
         {
             id:1,
             name: "abc",

@@ -1,5 +1,5 @@
 $(document).ready({
-    var serverData = [
+    var tempData = [
         {
             id:1,
             name: "abc",
@@ -23,11 +23,12 @@ $(document).ready({
             date: "2023-05-01 13:10"
 
         }];
+                  
     $('#table-order').DataTable({
         searching: true,
         paging: true,
         "bAutoWidth": false,
-        data: serverData,
+        data: tempData,
         columns: [
             {
                 data: "name", title: "Name", render: function (data, type, row) {

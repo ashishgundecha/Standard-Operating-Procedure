@@ -11,3 +11,6 @@
 
 4. appValidation.js : Add application data validation methods. Like data format validation, required fields, password rules.
     - Have code example : <a href='https://github.com/ashishgundecha/Standard-Operating-Procedure/blob/main/JavaScript/appValidation.js'> here  </a>
+
+5. applicationJWTToken.js : Add application auth token related methods. Like getToken, tokenExpirationTime.
+    - Have code example : <a href='https://github.com/ashishgundecha/Standard-Operating-Procedure/blob/main/JavaScript/applicationJWTToken.js'> here  </a>

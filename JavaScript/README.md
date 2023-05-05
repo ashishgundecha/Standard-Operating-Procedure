@@ -8,4 +8,6 @@
      
 3. appUtility.js : Add all the common methods 
      - Have code example : <a href='https://github.com/ashishgundecha/Standard-Operating-Procedure/blob/main/JavaScript/appUtility.js'> here  </a>
-     
+
+4. appValidation.js : Add application data validation methods. Like data format validation, required fields, password rules.
+    - Have code example : <a href='https://github.com/ashishgundecha/Standard-Operating-Procedure/blob/main/JavaScript/appValidation.js'> here  </a>

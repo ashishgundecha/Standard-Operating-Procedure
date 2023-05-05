@@ -28,28 +28,6 @@ $(document).ready({
         paging: true,
         "bAutoWidth": false,
         data: serverData,
-        buttons: [
-            {
-                extend: 'excel',
-                text: '<span><i class="fas fa-file-excel dtExcelIcon"></i>Export Excel</span>',
-                footer: true,
-            },
-            {
-                extend: 'pdf',
-                orientation: 'landscape',
-                text: '<span><i class="fas fa-file-pdf dtPdfIcon"></i>Export PDF</span>',
-                customize: function (doc) {
-                    var colCount = new Array();
-                    $(this).find('tbody tr:first-child td').each(function () {
-                        if ($(this).attr('colspan')) {
-                            for (var i = 1; i <= $(this).attr('colspan'); $i++) {
-                                colCount.push('*');
-                            }
-                        } else { colCount.push('*'); }
-                    });
-                }
-            }
-        ],
         columns: [
             {
                 data: "name", title: "Name", render: function (data, type, row) {

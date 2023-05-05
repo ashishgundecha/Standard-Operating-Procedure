@@ -11,7 +11,7 @@ https://github.com/ashishgundecha/Standard-Operating-Procedure/blob/main/DataTab
  Example : https://github.com/ashishgundecha/Standard-Operating-Procedure/tree/main/DataTables/StandardTable
  
 # 2. Rendered table
- A rendered table is used to add a custom extra feature. Custom column filter, data summary, dynamic UI...
+ A rendered table is used to add a custom feature like : Custom column filter, data summary, dynamic UI...
  Example : https://github.com/ashishgundecha/Standard-Operating-Procedure/tree/main/DataTables/RenderedTable
  
  # Below are the DataTableJs reference links.

@@ -1,6 +1,6 @@
 # Standard-Operating-Procedure
 
-#Token Rules
+#Cookie Policy
 1. We MUST use:
     app.UseCookiePolicy(new CookiePolicyOptions
     {

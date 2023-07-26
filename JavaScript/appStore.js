@@ -1,5 +1,7 @@
 (function () {
-   
+   //Cookie : Auth Header Token will be stored in cookie
+   //LocalStorage : Data for persisting non-secure
+   //Session Storage : Data for persisting on current page (not used often)
     
     var appCookieStore = {
         get: function (key) {

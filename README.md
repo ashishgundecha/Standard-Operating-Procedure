@@ -1,1 +1,11 @@
 # Standard-Operating-Procedure
+
+#Token Rules
+1. We MUST use:
+    app.UseCookiePolicy(new CookiePolicyOptions
+    {
+        HttpOnly = HttpOnlyPolicy.Always
+    });
+
+2. Token name should be "token".
+3. Securing Cookies: We need to have HTTPOnly = true and Secure = true
